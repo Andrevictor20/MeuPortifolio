@@ -32,6 +32,7 @@
     align-items: flex-start;
     width: 100%;
 }
+
 .info p{
     display: flex;
     flex-direction: row;
@@ -61,6 +62,9 @@
 }
 .info .mail::before{
     background-image: url("../Icons/Email.svg");
+}
+.info .linkedin::before{
+    background-image: url('../Icons/linkedin-16.png');
 }
 
 @media screen and (min-width:768px){
