@@ -70,14 +70,15 @@
     .header{
       display: grid;
       grid-template-areas:
-         "photo title"
-         "photo info"
-        
+         'photo' 
+         'title' 
+         'info'
       ;
     }
     .header.photo{
         grid-area: photo;
-        margin: 0 auto;
+        
+       
     }
     .header.title{
         grid-area: title;
@@ -86,6 +87,7 @@
     }
     .header.info{
         grid-area: info;
+        
     }
 
 
