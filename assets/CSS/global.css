@@ -22,7 +22,7 @@ a:hover{
 }
 .main{
     padding: 1rem;
-    margin: 1rem auto;
+    margin:  1rem;
     border: 1px solid white;
     border-radius: 1rem;
 
@@ -50,12 +50,12 @@ a:hover{
     right: 0;
     transform: rotate(180deg);
 }
-@media screen and (min-width:768px) {
-    main{
+@media only screen and (min-width:768px) {
+    .main{
         max-width: 1024px;
         margin: 1rem auto;
     }
-    main::before,main::after{
+    .main::before,.main::after{
         width:70vw;
 
     }
